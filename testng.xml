@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DockerSuite" parallel="classes">
+	<test name="GoogleTest">
+		<classes>
+			<class name="com.dockerz.MyDocker.ChromeStandAloneTest" />
+			<class name="com.dockerz.MyDocker.ChromeStandAloneTest2" />
+			<class name="com.dockerz.MyDocker.ChromeStandAloneTest3" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

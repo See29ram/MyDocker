@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="YahooTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.dockerz.MyDocker.ChromeStandAloneTest3">
+        <methods>
+          <include name="getGoogle"/>
+        </methods>
+      </class> <!-- com.dockerz.MyDocker.ChromeStandAloneTest3 -->
+    </classes>
+  </test> <!-- YahooTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
